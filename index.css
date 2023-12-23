@@ -1,0 +1,602 @@
+/* Screen Size width:1440px Height:840px */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+h4{
+    font-size: 20px;
+  }
+
+  
+  /* General */
+
+  .flex{
+    display: flex;
+  }
+
+  .block{
+    display: block;
+  }
+
+  .flex-wrap{
+    flex-wrap: wrap;
+  }
+
+  .flex-shrink {
+    flex-shrink: 0;
+  }
+
+  .flex-column{
+    flex-direction: column;
+  }
+
+  .flex-row{
+    flex-direction: row;
+  }
+  
+  .justify-betweeen{
+    justify-content: space-between;
+  }
+
+  .justify-center{
+    justify-content: center;
+  }
+
+  .items-center{
+    align-items: center;
+  }
+
+  .m-auto{
+    margin: auto;
+  }
+
+  .text-decoration-none{
+    text-decoration: none;
+  }
+
+  .cursor-pointer{
+    cursor: pointer;
+  }
+
+  .general-box-space {
+     margin-block-start: 30px;
+      margin-inline:40px;
+  }
+
+  .general-input {
+     
+  
+       
+    padding-inline-start: 14px;
+    color: #737373;
+
+
+}
+
+  ::placeholder {
+    width: 170px;
+    color:  #737373;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+    padding: 14px 52px 14px 16px;
+  }
+
+  
+
+  .label-styling {
+    color:  #011C34;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    margin-block-end:10px ;
+    width:159px;
+  }
+
+  .input-styling {
+    width: 238px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #F0F0F0;
+  }
+
+  .button_style {
+
+  }
+
+
+  .box-style {
+    width:100%;
+    height:48px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #F0F0F0;
+  }
+
+ 
+
+  [aria-current="page"] {
+    border: 1px solid #2EC4B6;
+  }
+
+
+  /* Main Container */
+
+  .main-section{
+    width:100%;
+    height:840px;
+    background-color:  #f3f8f8;
+    /*  #e6f1f0;  #f3f9f8 #f3f8f8*/
+    display: flex;
+ 
+    width: 100%;
+    flex-shrink: 0;
+   
+    
+    
+    flex-direction: row;
+
+  }
+
+
+  /*  For individual Section*/
+  .individual-section {
+
+    width: 460px;
+    height:275px;
+    left: 10%;
+    bottom: 10%;
+
+    
+    flex: 1.1;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+
+    .logo-png {
+      width: 97.33px;
+      height: 100px;
+      text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10);
+      margin-block-end:50px;
+      margin-inline-start:-10px;
+    }
+ 
+  
+  
+    .for-individuals {
+  
+      color: var(--CL-Black, #000B0A);
+      font-family: Brown, sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 50px; 
+      letter-spacing: -0.8px;
+      margin-block-end:20px; 
+      width: 70%;
+
+    }
+
+    .start-benefiting {
+      color: var(--CL-Grey, #737373);
+      font-family: Brown, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 25px;
+      width: 62%;
+    }
+
+ 
+    
+  }
+
+  .benefit_hidden {
+    display: none;
+  }
+  /* For individual Form */
+  .individual-form {
+    width: 580px;
+    height:679px;
+    flex: 0.9;
+    margin: 81px 140px 80px 0 ;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    box-sizing: border-box;
+    left: 0;
+   position: relative;
+  
+}
+
+    .name-fill-div {
+    
+      ::placeholder {
+        width: 170px;
+        color:  #011C34;
+        font-family: Sofia Pro;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; 
+        letter-spacing: 0.2px;
+        padding: 14px 52px 14px 16px;
+      }
+
+     
+    }
+
+
+    .button_wrapper {
+        color:#FFF;
+        width:100%;
+        padding: 10px 0px;
+      height: 48px;
+      background: #2EC4B6;
+      outline: none;
+      border: none;
+      
+      }
+
+  .register-btn {
+    background-color:  #2EC4B6;
+    box-shadow: (0px 10px 40px rgba(0, 0, 0, 0.10));
+    color: #fff;
+    text-align: center;
+    font-family: Sofia Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+  }
+
+  .terms-of-use {
+
+    margin: 16px 59px 40px 58px;
+    /* width: 80%; */
+
+    p{
+    color: #000;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  a {
+    color: var(--CL-Green, #2EC4B6);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration-line: underline;
+  }
+
+}
+
+
+
+
+
+
+
+
+/* Screen Size width:375px Height:1294px */
+
+/* MEDIA QUERY */
+
+@media (max-width: 1080px) {
+
+    body {
+        background-color:  #f3f8f8;
+    }
+
+
+
+  .main-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 1294px;
+      
+  }
+
+
+  /* Screen-top */
+
+  .screen-top {
+    width:100%;
+    height:44px;
+    
+
+    .time-container {
+      position: absolute;
+      top:10px;
+      left:35px;
+
+
+    .time-text {
+      /* position: absolute;
+      top:-38%;
+      left:5%; */
+      color: #737373;
+    }
+
+  }
+
+    .sub-screen-top {
+      width: 67px;
+      height: 11.5px;
+      position: absolute;
+      top:10px;
+      right:10px;
+
+  .wifi-icon {
+
+    color: #000;
+    height: 15px;
+ 
+  }
+
+  .battery-icon {
+ 
+    color: #000;
+    height: 15px;
+   
+  }
+
+ 
+  .signal-icon {
+    height:15px;
+    color: #000;
+  }
+}
+
+
+
+}
+
+    /*  For individual Section*/
+
+  .individual-section{
+      width: 85%;
+      height: auto;
+      flex: 1;
+      flex-grow: 1;
+      position: relative;
+      left: auto;
+      top: 20px;
+      padding-inline-start: 0;
+      margin-block-end: -120px;
+
+
+      .logo-png {
+        width: 48.67px;
+        height: 50px;
+        text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10);
+        margin-block-end:10px;
+
+      }
+
+    
+      .for-individuals {
+
+        color: var(--CL-Black, #000B0A);
+        font-family: Brown, sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; 
+        letter-spacing: -0.8px;
+        width: 85%;
+        height: 30px;
+      }
+        
+      .inspire-minds {
+        color: var(--CL-Grey, #737373);
+        font-family: Brown;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        width: 100%;
+        
+      }
+
+
+  }
+
+  .individual-form {
+  width: 85%;
+  height:auto;
+  flex: 1;
+  position: relative;
+  left: 70px;
+  top: 5px;
+  padding-block-end: 30px;
+
+}
+
+
+
+
+
+    
+.general-box-space {
+  display: flex;
+      flex-direction: column;
+      gap: 20px;
+     
+}
+
+.first_name1 {
+  flex: 1;
+  width: 100%;
+}
+
+.last_name1 {
+  flex: 1;
+  width: 100%;
+}
+
+.input-styling {
+  width: 100%;
+}
+
+.box-style {
+    width: 100%;
+}
+
+.terms_style {
+  color: #000;
+  text-align: center;
+  font-family: Sofia Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; 
+}
+
+
+
+.button_wrapper {
+color:#FFF;
+ padding: 10px 0px;
+height: 48px;
+background: #2EC4B6;
+outline: none;
+border: none;
+
+}
+
+.button_text {
+color:  #FFF;
+text-align: center;
+font-family: Sofia Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.2px;
+}
+
+.start-benefiting{
+  display: none;
+}
+
+.benefit_hidden {
+  color: var(--CL-Grey, #737373);
+      font-family: Brown;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      width: 80%;
+   display: block;
+}
+
+
+
+
+  /* For individual Form */
+
+
+
+.name-fill-div {
+
+  ::placeholder {
+    width: 170px;
+    color:  #011C34;
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+    padding: 14px 52px 14px 16px;
+  }
+
+  
+}
+
+.register-btn {
+background-color:  #2EC4B6;
+box-shadow: (0px 10px 40px rgba(0, 0, 0, 0.10));
+color: #fff;
+text-align: center;
+font-family: Sofia Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.2px;
+}
+
+.terms-of-use-mobile {
+
+
+    width: 87%;
+    margin:auto ;
+    margin-block-start: -10%;
+ 
+
+
+
+
+.terms-style-mobile-one {
+    width:80%;
+    margin:auto;
+   
+}
+
+
+p{
+color: #000;
+font-family: Sofia Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+
+}
+
+a {
+color: var(--CL-Green, #2EC4B6);
+font-family: Sofia Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+text-decoration-line: underline;
+}
+}
+
+
+.gender-date {
+  
+
+    .select-option {
+      padding-inline-start: 14px;
+      color: #737373;
+    }
+  
+}
+
+
+}

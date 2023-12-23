@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/brown" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Sign Up</title>
+  </head>
+  <style>
+    @import url("https://fonts.cdnfonts.com/css/brown");
+  </style>
+
+  <body>
+    <div class="main-section flex justify-between items-center m-auto">
+      <div class="screen-top benefit_hidden">
+        <div class="time-container"><p class="time-text">9:41</p></div>
+        <div class="sub-screen-top">
+          <img
+            class="signal-icon"
+            src="img/signal-status.png"
+            alt="signal-bar"
+          />
+          <svg
+            class="wifi-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            height="16"
+            width="20"
+            viewBox="0 0 640 512"
+          >
+            <path
+              opacity="1"
+              fill="#1E3050"
+              d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"
+            />
+          </svg>
+          <svg
+            class="battery-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            height="16"
+            width="18"
+            viewBox="0 0 576 512"
+          >
+            <path
+              opacity="1"
+              fill="#1E3050"
+              d="M464 160c8.8 0 16 7.2 16 16V336c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V176c0-8.8 7.2-16 16-16H464zM80 96C35.8 96 0 131.8 0 176V336c0 44.2 35.8 80 80 80H464c44.2 0 80-35.8 80-80V320c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32V176c0-44.2-35.8-80-80-80H80zm368 96H96V320H448V192z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="individual-section justify-center">
+        <img class="logo-png" src="img/Logo.png" alt="logo_png" />
+
+        <h1 class="for-individuals">For Individuals</h1>
+        <p class="start-benefiting">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+        <p class="benefit_hidden inspire-minds">
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+      </div>
+      <div class="individual-form">
+        <form action="" method="post">
+          <div class="flex justify-betweeen general-box-space name-fill-div">
+            <div class="first_name1">
+              <label class="block label-styling" for="first-name"
+                >First Name</label
+              >
+              <input
+                class="input-styling"
+                id="first-name"
+                type="text"
+                placeholder="Tolu"
+                aria-current="page"
+              />
+            </div>
+
+            <div class="last_name1">
+              <label class="block label-styling" for="name">Last Name</label>
+              <input class="input-styling" id="last-name" type="text" />
+            </div>
+          </div>
+
+          <div class="flex justify-betweeen general-box-space">
+            <div class="gender">
+              <label class="block label-styling" for="gender">Gender </label>
+
+              <select class="input-styling general-input" id="gender">
+                <option class="select-option" value="">Select here</option>
+              </select>
+            </div>
+            <div>
+              <label class="block label-styling" for="D-O-B"
+                >Date of Birth</label
+              >
+              <input
+                class="input-styling general-input"
+                type="date"
+                id="date_of_birth"
+                name="date_of_birth"
+              />
+            </div>
+          </div>
+          <div class="flex justify-betweeen general-box-space weight-height">
+            <div>
+              <label class="block label-styling" for="weight">Weight(KG)</label>
+              <input
+                class="input-styling"
+                id="weight"
+                type="text"
+                placeholder="Enter Weight"
+              />
+            </div>
+            <div>
+              <label class="block label-styling" for="height">Height(CM)</label>
+              <input
+                class="input-styling"
+                id="height"
+                type="text"
+                placeholder="Enter Height here.."
+              />
+            </div>
+          </div>
+          <div class="general-box-space activity-level">
+            <div>
+              <label class="block label-styling" for="activity-level"
+                >Activity Level</label
+              >
+              <select
+                class="box-style general-input"
+                name="activity-level"
+                id="activity-level"
+              >
+                <option value="">Select here</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="general-box-space password">
+            <label class="block label-styling" for="activity-level"
+              >Password</label
+            >
+            <input
+              class="box-style"
+              id="password"
+              type="password"
+              placeholder=""
+            />
+          </div>
+
+          <div class="general-box-space">
+            <button class="button_wrapper button_style">Register</button>
+          </div>
+        </form>
+
+        <div class="terms-of-use start-benefiting">
+          <p class="terms_style">
+            By clicking Register, you agree to our
+            <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="terms-of-use-mobile benefit_hidden">
+      <p class="terms-style-mobile-one">
+        By clicking Register, you agree to our
+        <a href="#">Terms of </a>
+        <a href="#">Use</a> and our <a href="#">Privacy Policy</a>
+      </p>
+    </div>
+  </body>
+</html>
